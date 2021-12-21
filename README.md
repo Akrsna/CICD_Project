@@ -105,14 +105,10 @@ Next, we need to refresh our system&#39;s package index so that it is aware of t
 
 $ git clone [https://github.com/Akrsna/myAnsibleRepo.git](https://github.com/Akrsna/myAnsibleRepo.git)
 
-- We need to write the role in yaml format with the reference from digital ocean and the ansible document [https://docs.ansible.com/ansible/2.8/modules/list\_of\_all\_modules.html](https://docs.ansible.com/ansible/2.8/modules/list_of_all_modules.html)
--
 
-[https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-ubuntu-16-04)
-
-- Here we are automating the manual steps of setting up of the tomcat 8 on ubuntu by using the ansible (Infrastructure as a code)
+- Here I am automating the manual steps of setting up of the tomcat 8 on ubuntu by using the ansible role (Infrastructure as a code)
 - The role is in [mytomcat8onUbuntu16](https://github.com/Akrsna/myAnsibleRepo/tree/main/mytomcat8onUbuntu16) and playbook which executes this role is [mytomsetup.yml](https://github.com/Akrsna/myAnsibleRepo/blob/main/mytomsetup.yml)
-- Here we need to provide the hosts file where the node details will be given.
+- Here need to provide the hosts file where the node details will be given.
 
 From Jenkins Master
 
